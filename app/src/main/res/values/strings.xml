@@ -1,0 +1,35 @@
+<resources>
+    <string name="app_name">ASP Orientation</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">American School of Paris</string>
+    <string name="nav_header_subtitle">Founded 1946</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Settings</string>
+
+    <string name="welcomeO">Your year starts with Orientation where you will be welcomed by the Parent Faculty Association, visit campus, get your bus routes and ID cards, complete outstanding admissions materials, and meet your division\'s academic director, teachers, and other ASP families.</string>
+    <string name="welcomeBTSP">This all-community picnic is sponsored by ASP and the PFA and will be a day filled with food, fun, music, and games. Sports teams, clubs, and PFA liaisons will be on hand to greet you and introduce themselves. It will be a chance for the entire family to meet new friends and a great way to start off the new school year!</string>
+    <string name="welcomeLSS">Presented over two days, Living Skills provides a special orientation to living in the Paris area and useful information related to school life, including discussions on ASP programs, security and health services, presentations on the the French medical system and transportation, and answers to your food-related questions.</string>
+    <string name="welcomeCCF">Visit the Community Connections Fair and meet a variety of local English-speaking vendors and service providers. Participants typically include representatives from clubs, service institutions, language and cooking schools, banks, and more.</string>
+
+    <string name="PFAintro">We are so excited to have your family become a part of our vibrant and dynamic ASP community, and the PFA is here to help you feel welcomed and supported. Here are some of the PFA volunteer resources available to you:</string>
+    <string name="PFAGL">Grade Liaisons will provide you with information regarding activities, events, and volunteer opportunities for your child\'s grade level.</string>
+    <string name="PFANL">Neighborhood Liaisons are a great resource to contact for information about your new neighborhood or a neighborhood that you may be considering.</string>
+    <string name="PFAIL">International Liaisons can help you find traditional items that you may be missing from home and may also speak your mother tongue.</string>
+    <string name="gradepLS">From the beginning, ASP teachers and students are eager to help newcomers. At Orientation Day, teachers are on hand to welcome new students. Children and their parents can visit their classroom so that they can see and learn more about their new school. Once school starts, children spend time getting to know each other, and teachers are especially attentive and sensitive to the adjustment process of those who have newly arrived.</string>
+    <string name="gradepMS">Each grade travels for a multi-day program organized by the school and the Outward Bound program. These trips create an amazing first impression and connection for students. The goal is for students to develop a sense of trust, friendship, cooperation, and good spirit. The experience builds a foundation for cooperative learning that will carry on throughout the year.</string>
+    <string name="gradepUS">Students will experience a range of programs at the start of the year to help them discover the school, learn more about its expectations, meet classmates, and form new friendships.</string>
+
+    <string name="onlineintro"><b>The <a href="https://www.asparis.org">ASP Website</a> has a wealth of resources about our programs and community. The <a href="https://www.asparis.org/parentportal/home">Parent Portal</a> is your point of entry.</b></string>
+    <string name="powerschool">PowerSchool is ASP\'s student data base. Student schedules, attendance data, grades, and report cards are available here. Click <b><a href="https://powerschool.asparis.fr/public/home.html">here</a></b> to access the PowerSchool Parent Portal.</string>
+    <string name="haiku">Haiku/PowerSchool Learning is the school’s online learning portal. Middle and Upper School teachers use Haiku to extend the classroom environment. For the ASP student, Haiku provides access to a variety of resources and information related to classes, clubs and other activities. Click <b><a href="https://asparis.learning.powerschool.com/do/account/login">here</a></b> to access the Haiku Portal.</string>
+    <string name="calendars">Click <a href="https://resources.finalsite.net/images/v1548057202/asp/lg8rcpfrnawxwoh4aiap/SCHOOLCALENDAR2019-2020.pdf">here</a> to access the 2019-20 Academic Calendar. Click <a href="https://www.asparis.org/parentportal/home/calendar">here</a> to access the Parent Calendar, detailing events such as meetings, trips, and programs by division. </string>
+    <string name="libraries">ASP is home to two libraries: La Bibliothèque (Early Childhood-Grade 7) and <b><a href="http://libraries.asparis.fr/thehub">Sawiris Family Library</a></b> (Grades 8-12), the latter of which provides access to a number of online databases and learning resources and research information.</string>
+    <string name="directory">Click <b><a href="https://resources.finalsite.net/images/v1543583491/asp/thl1v5gyhagwmtbcf8oq/WholeDirectory2018-2019.pdf">here</a></b> for the School Directory, which contains the contact information of all administration and staff, PFA members, and ASP families.</string>
+
+    <string name="athleticsintro">ASP offers a comprehensive range of co-curriular sporting experiences for students in all three academic divisions:</string>
+    <string name="cocurricularintro">ASP offers a rich and varied range of after-school and co-curricular activities which provide avenues for self-expression, language learning, personal growth, and insights into the world around us.</string>
+    <string name="cafintro">ASP has two cafeterias - one for the Lower School and one for the Middle and Upper School students (see below for more details). It is our belief that students who are enrolled in the cafeteria program should receive a healthy and satisfying meal every day. Our goal is to prepare meals that are nutritionally balanced and pleasing to the children.</string>
+    <string name="busintro">While some ASP parents drive their children to school themselves, the majority of our students use our comprehensive and dedicated school bus service. The school has contracted with a private bus company to provide safe and reliable transportation for ASP students, for an additional fee.</string>
+
+</resources>

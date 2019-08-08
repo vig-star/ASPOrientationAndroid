@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#0e0ed6"
+        android:text="Parent Faculty Association:"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:fontFamily="sans-serif"
+        android:textStyle="italic"
+        android:text="@string/PFAintro"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.3">
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="5dp"
+            android:textAlignment="viewStart"
+            android:layout_marginLeft="5dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/pfagl"
+            tools:text="@string/PFAGL"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:id="@+id/pfanl"
+            tools:text="@string/PFANL"/>
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="5dp"
+            android:textAlignment="viewEnd"
+            android:layout_marginRight="5dp"
+            android:fontFamily="sans-serif"
+            android:id="@+id/pfail"
+            tools:text="@string/PFAIL"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.2">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.525"
+            android:src="@drawable/pfaimg" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.475"
+            android:src="@drawable/pfaimg2" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:backgroundTint="#0db73e"
+        android:textStyle="bold"
+        android:text="Learn more about PFA School Activities"
+        android:textAllCaps="false"
+        android:id="@+id/pfasa"/>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:backgroundTint="#b97d04"
+        android:textStyle="bold"
+        android:text="Learn more about PFA Community Events"
+        android:textAllCaps="false"
+        android:id="@+id/pface"/>
+
+    <!-- -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.25">
+
+        <!- -
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.53"
+            android:src="@drawable/sportsb" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.47"
+            android:layout_height="match_parent"
+            android:backgroundTint="#f27d10"
+            android:text="PFA School Activities"
+            android:textAllCaps="false"/>
+
+
+
+
+    </LinearLayout>
+
+<!- -->
+
+</LinearLayout>

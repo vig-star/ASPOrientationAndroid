@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal"
+    >
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginStart="16dp"
+        android:layout_marginLeft="16dp"
+        android:layout_weight="0.7"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#0e0ed6"
+            android:textSize="20dp"
+            android:textStyle="bold"
+            tools:text="Back-to-School Picnic" />
+
+        <TextView
+            android:id="@+id/info"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="@dimen/activity_horizontal_margin"
+            android:layout_marginLeft="@dimen/activity_horizontal_margin"
+            android:layout_marginEnd="16dp"
+            android:layout_marginRight="16dp"
+            android:fontFamily="sans-serif-condensed"
+            android:textColor="#0d0909"
+            android:textSize="15dp"
+            tools:text="This all-community picnic is sponsored by ASP and the PFA and will be a day filled with food, fun, music, and games. Sports teams, clubs, and PFA liaisons will be on hand to greet you and introduce themselves. It will be a chance for the entire family to meet new friends and a great way to start off the new school year!" />
+
+    </LinearLayout>
+
+</LinearLayout>

@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:textSize="20dp"
+                android:textStyle="bold"
+                android:textColor="#0e0ed6"
+                android:text="ASP Student Transportation"/>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:textAlignment="center"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:layout_marginTop="12dp"
+                android:fontFamily="sans-serif"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="10dp"
+                android:textSize="15dp"
+                android:textStyle="italic"
+                android:text="@string/busintro"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:text="Normal Bus Routes"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:background="#ff5a5a"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/busr"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="5:15 Late Bus Routes"
+                android:textAllCaps="false"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:textSize="15dp"
+                android:background="#6c87ff"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/lbusr"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="6:30 Late Bus Routes"
+                android:textAllCaps="false"
+                android:textSize="15dp"
+                android:paddingTop="10dp"
+                android:paddingBottom="10dp"
+                android:background="#5eff00"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/llbusr"/>
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

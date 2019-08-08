@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+
+    <item
+        android:id="@+id/home"
+        android:icon="@drawable/home"
+        android:title="Home" />
+
+    <group android:checkableBehavior="single">
+        <item android:title="Your First Year at ASP">
+            <menu>
+                <item
+                    android:id="@+id/campusmap"
+                    android:icon="@drawable/map"
+                    android:title="Campus Map" />
+                <item
+                    android:id="@+id/welcome"
+                    android:icon="@drawable/welcome"
+                    android:title="ASP Welcome Program" />
+                <item
+                    android:id="@+id/pfa"
+                    android:icon="@drawable/pfa"
+                    android:title="Parent Faculty Association" />
+                <item
+                    android:id="@+id/programs"
+                    android:icon="@drawable/bonding"
+                    android:title="Grade Bonding Programs" />
+
+            </menu>
+        </item>
+        <item android:title="Important Information">
+            <menu>
+                <item
+                    android:id="@+id/online"
+                    android:icon="@drawable/online"
+                    android:title="ASP Online Resources" />
+
+                <item
+                    android:id="@+id/athletics"
+                    android:icon="@drawable/sports"
+                    android:title="Athletics Program" />
+                <item
+                    android:id="@+id/cocurricular"
+                    android:icon="@drawable/cca"
+                    android:title="Co-Curricular Activities" />
+                <item
+                    android:id="@+id/caf"
+                    android:icon="@drawable/food"
+                    android:title="Cafeteria Information" />
+                <item
+                    android:id="@+id/bus"
+                    android:icon="@drawable/bus"
+                    android:title="Bus Information" />
+                <item
+                    android:id="@+id/calendar"
+                    android:icon="@drawable/calendar"
+                    android:title="School Calendar" />
+            </menu>
+        </item>
+    </group>
+
+    <item android:title="Communicate">
+        <menu>
+            <item
+                android:id="@+id/share"
+                android:icon="@drawable/share"
+                android:title="Share" />
+        </menu>
+    </item>
+
+</menu>

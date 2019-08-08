@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:clickable="true">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Follow us on Instagram"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#6c87ff"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/insta3"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Like us on Facebook"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#ff1e00"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/fb"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Follow us on Twitter"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#5eff00"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/twit"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Watch us on Vimeo"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#43ffef"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/vim"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="90dp"
+                android:text="Follow us on Linkedin"
+                android:textAllCaps="false"
+                android:textSize="20dp"
+                android:background="#43ff59"
+                android:textStyle="bold"
+                android:layout_margin="20dp"
+                android:id="@+id/link"/>
+
+
+
+        </LinearLayout>
+    </ScrollView>
+</LinearLayout>

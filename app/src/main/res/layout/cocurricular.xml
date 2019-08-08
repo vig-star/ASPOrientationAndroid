@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#ffff"
+    android:clickable="true">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.05"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:textStyle="bold"
+        android:textSize="20dp"
+        android:textColor="#0e0ed6"
+        android:text="ASP Co-Curricular Activities"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.15"
+        android:layout_gravity="center"
+        android:textAlignment="center"
+        android:layout_marginTop="12dp"
+        android:fontFamily="sans-serif"
+        android:layout_marginRight="10dp"
+        android:layout_marginLeft="10dp"
+        android:textStyle="italic"
+        android:text="@string/cocurricularintro"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:orientation="horizontal"
+        >
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:backgroundTint="#f40e0e"
+            android:textSize="12dp"
+            android:id="@+id/lscca"
+            android:textStyle="bold"
+            android:text="Learn More about Lower School Co-Curricular Activities"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:textAllCaps="false"
+            android:textSize="12dp"
+            android:backgroundTint="#00bfff"
+            android:id="@+id/mscca"
+            android:textStyle="bold"
+            android:text="Learn More about Middle School Co-Curricular Activities"/>
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.33"
+            android:layout_height="match_parent"
+            android:fontFamily="sans-serif"
+            android:textSize="12dp"
+            android:textStyle="bold"
+            android:textAllCaps="false"
+            android:backgroundTint="#2ae909"
+            android:id="@+id/uscca"
+            android:text="Learn More about Upper School Co-Curricular Activities"/>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.3">
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.535"
+            android:src="@drawable/chess" />
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.465"
+            android:src="@drawable/robotics" />
+
+    </LinearLayout>
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"
+        android:backgroundTint="#0db73e"
+        android:textStyle="bold"
+        android:text="Access the Co-Curriculars Portal"
+        android:textAllCaps="false"
+        android:id="@+id/ccap"/>
+
+    <!-- -
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:orientation="horizontal"
+        android:layout_weight="0.25">
+
+        <!- -
+
+        <ImageView
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="0.53"
+            android:src="@drawable/sportsb" />
+
+        <Button
+            android:layout_width="0dp"
+            android:layout_weight="0.47"
+            android:layout_height="match_parent"
+            android:backgroundTint="#f27d10"
+            android:text="PFA School Activities"
+            android:textAllCaps="false"/>
+
+
+
+
+    </LinearLayout>
+
+<!- -->
+
+</LinearLayout>
