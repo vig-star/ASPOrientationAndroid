@@ -23,10 +23,6 @@
                     android:id="@+id/pfa"
                     android:icon="@drawable/pfa"
                     android:title="Parent Faculty Association" />
-                <item
-                    android:id="@+id/programs"
-                    android:icon="@drawable/bonding"
-                    android:title="Grade Bonding Programs" />
 
             </menu>
         </item>
@@ -63,6 +59,10 @@
 
     <item android:title="Communicate">
         <menu>
+            <item
+                android:id="@+id/contactinfo"
+                android:icon="@drawable/contactinfo"
+                android:title="Contact Information" />
             <item
                 android:id="@+id/share"
                 android:icon="@drawable/share"

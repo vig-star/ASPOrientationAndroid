@@ -10,13 +10,14 @@
     <TextView
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.05"
+        android:layout_weight="0.10"
+        android:paddingTop="20dp"
         android:layout_gravity="center"
         android:textAlignment="center"
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:textColor="#0e0ed6"
+        android:textColor="#003D71"
         android:text="Parent Faculty Association:"/>
 
     <TextView
@@ -24,6 +25,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.15"
         android:layout_gravity="center"
+        android:textColor="#003D71"
         android:textAlignment="center"
         android:fontFamily="sans-serif"
         android:textStyle="italic"
@@ -33,14 +35,16 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:orientation="horizontal"
-        android:layout_weight="0.3">
+        android:layout_weight="0.25">
 
         <TextView
             android:layout_width="0dp"
             android:layout_weight="0.33"
+            android:textColor="#003D71"
             android:layout_height="wrap_content"
             android:layout_marginStart="5dp"
             android:textAlignment="viewStart"
+            android:layout_gravity="start"
             android:layout_marginLeft="5dp"
             android:fontFamily="sans-serif"
             android:id="@+id/pfagl"
@@ -51,6 +55,7 @@
             android:layout_weight="0.33"
             android:layout_height="wrap_content"
             android:textAlignment="center"
+            android:textColor="#003D71"
             android:fontFamily="sans-serif"
             android:id="@+id/pfanl"
             tools:text="@string/PFANL"/>
@@ -61,8 +66,10 @@
             android:layout_height="wrap_content"
             android:layout_marginEnd="5dp"
             android:textAlignment="viewEnd"
+            android:layout_gravity="end"
             android:layout_marginRight="5dp"
             android:fontFamily="sans-serif"
+            android:textColor="#003D71"
             android:id="@+id/pfail"
             tools:text="@string/PFAIL"/>
 
@@ -92,7 +99,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.15"
-        android:backgroundTint="#0db73e"
+        android:textColor="#ffff"
+        android:backgroundTint="#BE1E2D"
         android:textStyle="bold"
         android:text="Learn more about PFA School Activities"
         android:textAllCaps="false"
@@ -102,7 +110,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.15"
-        android:backgroundTint="#b97d04"
+        android:textColor="#ffff"
+        android:backgroundTint="#BE1E2D"
         android:textStyle="bold"
         android:text="Learn more about PFA Community Events"
         android:textAllCaps="false"

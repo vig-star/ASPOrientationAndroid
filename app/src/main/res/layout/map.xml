@@ -5,7 +5,7 @@
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
         android:clickable="true"
-        android:background="#3b3370">
+        android:background="#003D71">
 
     <com.github.chrisbanes.photoview.PhotoView
         android:id="@+id/mapimg"

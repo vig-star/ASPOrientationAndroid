@@ -11,6 +11,7 @@
         android:layout_height="match_parent">
         <LinearLayout
             android:layout_width="match_parent"
+            android:paddingTop="20dp"
             android:layout_height="match_parent"
             android:orientation="vertical">
 
@@ -20,7 +21,8 @@
                 android:text="Follow us on Instagram"
                 android:textAllCaps="false"
                 android:textSize="20dp"
-                android:background="#6c87ff"
+                android:backgroundTint="#BE1E2D"
+                android:textColor="#FFF"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
                 android:id="@+id/insta3"/>
@@ -31,7 +33,8 @@
                 android:text="Like us on Facebook"
                 android:textAllCaps="false"
                 android:textSize="20dp"
-                android:background="#ff1e00"
+                android:backgroundTint="#BE1E2D"
+                android:textColor="#FFF"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
                 android:id="@+id/fb"/>
@@ -42,7 +45,8 @@
                 android:text="Follow us on Twitter"
                 android:textAllCaps="false"
                 android:textSize="20dp"
-                android:background="#5eff00"
+                android:backgroundTint="#BE1E2D"
+                android:textColor="#FFF"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
                 android:id="@+id/twit"/>
@@ -53,7 +57,8 @@
                 android:text="Watch us on Vimeo"
                 android:textAllCaps="false"
                 android:textSize="20dp"
-                android:background="#43ffef"
+                android:backgroundTint="#BE1E2D"
+                android:textColor="#FFF"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
                 android:id="@+id/vim"/>
@@ -64,7 +69,8 @@
                 android:text="Follow us on Linkedin"
                 android:textAllCaps="false"
                 android:textSize="20dp"
-                android:background="#43ff59"
+                android:backgroundTint="#BE1E2D"
+                android:textColor="#FFF"
                 android:textStyle="bold"
                 android:layout_margin="20dp"
                 android:id="@+id/link"/>

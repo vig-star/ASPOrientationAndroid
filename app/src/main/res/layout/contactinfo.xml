@@ -1,0 +1,919 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#ffff"
+    android:clickable="true">
+
+    <LinearLayout
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:clickable="true"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:paddingTop="20dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:textAlignment="center"
+            android:fontFamily="sans-serif"
+            android:textStyle="bold"
+            android:textSize="20dp"
+            android:textColor="#003D71"
+            android:text="Important Contact Information:"/>
+
+        <TextView
+            android:id="@+id/title1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Admissions Office" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eea"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ea"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Nurse Office" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/een"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/en"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Absences Office" />
+
+        <TextView
+            android:id="@+id/lsab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Lower School: Camille Burel"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eelab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/elab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nMiddle School: Patricia Connor"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eemab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/emab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/usab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nUpper School: Cathy McLaury"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeuab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/euab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Student Transportation Office" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eest"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/est"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Directors" />
+
+        <TextView
+            android:id="@+id/lscab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Lower School: Daniel Kerr"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeldab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eldab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msdab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nMiddle School: Carleen Helaili"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eemdab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/emdab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/usdab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nUpper School: Aaron Hubbard"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeudab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eudab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title6"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Counselors" />
+
+        <TextView
+            android:id="@+id/lsdab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Lower School: Justine du Plessis"
+            android:textAllCaps="false"
+            android:textColor="#0c14ac"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eelcab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/elcab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#0c14ac"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/msdab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nMiddle School: Anthony Suzzi-Valli"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eemcab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/emcab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/uscab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nUpper School: Sandy Karam/Justin Kearns"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeucab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eucab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeuc2ab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/euc2ab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title6.5"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="College Counselors" />
+
+        <TextView
+            android:id="@+id/accab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Jill Lauck"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeaccab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eaccab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/accab2"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nMary Jean Lowe"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeaccab2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eaccab2"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+
+        <TextView
+            android:id="@+id/title7"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Athletics Department" />
+
+        <TextView
+            android:id="@+id/adab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Director: John Kim"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeadab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eadab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/adab2"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nSecretary: Naida Simota"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeadab2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eadab2"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title8"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Test Center Administration" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eet"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/et"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title9"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Librarians" />
+
+        <TextView
+            android:id="@+id/lslab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="Lower/Middle School: Margaret Montarras/Gregory Jacks"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eellab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ellab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eellab2"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/ellab2"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/uslab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="\nUpper School: Mario Chioni"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eeulab"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/eulab"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/title10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:fontFamily="sans-serif"
+            android:maxLines="2"
+            android:textColor="#003D71"
+            android:paddingTop="20dp"
+            android:textSize="17dp"
+            android:textStyle="bold"
+            android:text="Parent Faculty Association" />
+
+        <TextView
+            android:id="@+id/pfaab"
+            android:layout_width="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginStart="30dp"
+            android:text="President: Lisa Hallenbeck"
+            android:textAllCaps="false"
+            android:textColor="#003D71"
+            android:background="@android:color/transparent"
+            android:layout_height="wrap_content" />
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/eepfa"
+                android:layout_width="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginStart="30dp"
+                android:text="Email: "
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/epfa"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="wrap_content" />
+            <TextView
+                android:id="@+id/emptyspace"
+                android:layout_width="wrap_content"
+                android:text=""
+                android:textAllCaps="false"
+                android:textColor="#003D71"
+                android:background="@android:color/transparent"
+                android:layout_height="10dp" />
+        </LinearLayout>
+
+    </LinearLayout>
+</ScrollView>

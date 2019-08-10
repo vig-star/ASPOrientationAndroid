@@ -16,7 +16,7 @@
 
         <TextView
             android:layout_width="0dp"
-            android:layout_weight="0.9"
+            android:layout_weight="0.8"
             android:layout_height="match_parent"
             android:layout_gravity="center"
             android:textAlignment="center"
@@ -25,17 +25,17 @@
             android:layout_marginTop="12dp"
             android:fontFamily="sans-serif"
             android:textStyle="bold"
-            android:textColor="#0e0ed6"
-            android:text="ASP Athletics Program"/>
+            android:textColor="#003D71"
+            android:text="\t\t\t\tASP Athletics "/>
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="match_parent"
-            android:layout_weight="0.1"
+            android:layout_weight="0.2"
             android:paddingTop="10dp"
             android:backgroundTint="#fff"
             android:id="@+id/insta"
-            android:src="@drawable/insta2" />
+            android:src="@drawable/insta" />
 
     </LinearLayout>
 
@@ -45,11 +45,12 @@
         android:layout_weight="0.1"
         android:layout_gravity="center"
         android:textAlignment="center"
+        android:textColor="#003D71"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:text="@string/athleticsintro"/>
 
     <LinearLayout
@@ -65,9 +66,10 @@
             android:layout_height="match_parent"
             android:fontFamily="sans-serif"
             android:textAllCaps="false"
-            android:backgroundTint="#f40e0e"
+            android:backgroundTint="#BE1E2D"
             android:textSize="12dp"
             android:id="@+id/lsa"
+            android:textColor="#ffff"
             android:textStyle="bold"
             android:text="Learn More about Lower School Athletics"/>
 
@@ -77,8 +79,9 @@
             android:layout_height="match_parent"
             android:fontFamily="sans-serif"
             android:textAllCaps="false"
+            android:textColor="#ffff"
             android:textSize="12dp"
-            android:backgroundTint="#00bfff"
+            android:backgroundTint="#BE1E2D"
             android:id="@+id/msa"
             android:textStyle="bold"
             android:text="Learn More about Middle School Athletics"/>
@@ -89,9 +92,10 @@
             android:layout_height="match_parent"
             android:fontFamily="sans-serif"
             android:textSize="12dp"
+            android:textColor="#ffff"
             android:textStyle="bold"
             android:textAllCaps="false"
-            android:backgroundTint="#2ae909"
+            android:backgroundTint="#BE1E2D"
             android:id="@+id/usa"
             android:text="Learn More about Upper School Athletics"/>
 
@@ -121,8 +125,9 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.25"
-        android:backgroundTint="#0db73e"
+        android:backgroundTint="#BE1E2D"
         android:textStyle="bold"
+        android:textColor="#ffff"
         android:text="Access the Athletics Portal"
         android:textAllCaps="false"
         android:id="@+id/ap"/>

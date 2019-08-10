@@ -83,11 +83,6 @@ public class MainActivity extends AppCompatActivity
             PFAFragment pfaFragment = new PFAFragment();
             getSupportFragmentManager().beginTransaction().add(R.id.fragment_frame, pfaFragment).commit();
 
-        } else if (id == R.id.programs) {
-
-            GradeProgramFragment gradeProgramFragment = new GradeProgramFragment();
-            getSupportFragmentManager().beginTransaction().add(R.id.fragment_frame, gradeProgramFragment).commit();
-
         } else if (id == R.id.online) {
 
             ASPOnlineFragment aspOnlineFragment = new ASPOnlineFragment();
@@ -118,6 +113,11 @@ public class MainActivity extends AppCompatActivity
 
             Intent intent = new Intent(this, CalendarActivity.class);
             startActivity(intent);
+
+        } else if (id == R.id.contactinfo) {
+
+            ContactInfoFragment contactInfoFragment = new ContactInfoFragment();
+            getSupportFragmentManager().beginTransaction().add(R.id.fragment_frame, contactInfoFragment).commit();
 
         } else if (id == R.id.share) {
 

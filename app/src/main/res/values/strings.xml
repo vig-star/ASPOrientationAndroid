@@ -1,5 +1,5 @@
 <resources>
-    <string name="app_name">ASP Orientation</string>
+    <string name="app_name">ASP</string>
     <string name="navigation_drawer_open">Open navigation drawer</string>
     <string name="navigation_drawer_close">Close navigation drawer</string>
     <string name="nav_header_title">American School of Paris</string>
@@ -25,7 +25,9 @@
     <string name="haiku">Haiku/PowerSchool Learning is the school’s online learning portal. Middle and Upper School teachers use Haiku to extend the classroom environment. For the ASP student, Haiku provides access to a variety of resources and information related to classes, clubs and other activities. Click <b><a href="https://asparis.learning.powerschool.com/do/account/login">here</a></b> to access the Haiku Portal.</string>
     <string name="calendars">Click <a href="https://resources.finalsite.net/images/v1548057202/asp/lg8rcpfrnawxwoh4aiap/SCHOOLCALENDAR2019-2020.pdf">here</a> to access the 2019-20 Academic Calendar. Click <a href="https://www.asparis.org/parentportal/home/calendar">here</a> to access the Parent Calendar, detailing events such as meetings, trips, and programs by division. </string>
     <string name="libraries">ASP is home to two libraries: La Bibliothèque (Early Childhood-Grade 7) and <b><a href="http://libraries.asparis.fr/thehub">Sawiris Family Library</a></b> (Grades 8-12), the latter of which provides access to a number of online databases and learning resources and research information.</string>
-    <string name="directory">Click <b><a href="https://resources.finalsite.net/images/v1543583491/asp/thl1v5gyhagwmtbcf8oq/WholeDirectory2018-2019.pdf">here</a></b> for the School Directory, which contains the contact information of all administration and staff, PFA members, and ASP families.</string>
+    <string name="seesaw">Click <b><a href="https://web.seesaw.me/">here</a></b> for Seesaw, a digital portfolio tool used in the Lower School to document and showcase student learning, encourage student self-reflection, and connect parents to their child’s classroom.</string>
+
+
 
     <string name="athleticsintro">ASP offers a comprehensive range of co-curriular sporting experiences for students in all three academic divisions:</string>
     <string name="cocurricularintro">ASP offers a rich and varied range of after-school and co-curricular activities which provide avenues for self-expression, language learning, personal growth, and insights into the world around us.</string>

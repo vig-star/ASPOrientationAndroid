@@ -23,7 +23,7 @@
             android:layout_marginRight="16dp"
             android:fontFamily="sans-serif"
             android:maxLines="2"
-            android:textColor="#0e0ed6"
+            android:textColor="#003D71"
             android:textSize="20dp"
             android:textStyle="bold"
             tools:text="Back-to-School Picnic" />
@@ -37,7 +37,7 @@
             android:layout_marginEnd="16dp"
             android:layout_marginRight="16dp"
             android:fontFamily="sans-serif-condensed"
-            android:textColor="#0d0909"
+            android:textColor="#003D71"
             android:textSize="15dp"
             tools:text="This all-community picnic is sponsored by ASP and the PFA and will be a day filled with food, fun, music, and games. Sports teams, clubs, and PFA liaisons will be on hand to greet you and introduce themselves. It will be a chance for the entire family to meet new friends and a great way to start off the new school year!" />
 

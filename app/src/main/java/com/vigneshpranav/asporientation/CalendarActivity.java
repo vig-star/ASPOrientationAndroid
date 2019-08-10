@@ -59,7 +59,7 @@ public class CalendarActivity extends AppCompatActivity {
                 }
             });
 
-            webView.loadUrl("https://www.asparis.org/parentportal/home/calendar");
+            webView.loadUrl("https://sites.google.com/a/asparis.fr/navcom/calus?pli=1");
         }
     }
 

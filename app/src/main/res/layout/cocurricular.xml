@@ -17,7 +17,7 @@
         android:fontFamily="sans-serif"
         android:textStyle="bold"
         android:textSize="20dp"
-        android:textColor="#0e0ed6"
+        android:textColor="#003D71"
         android:text="ASP Co-Curricular Activities"/>
 
     <TextView
@@ -26,11 +26,12 @@
         android:layout_weight="0.15"
         android:layout_gravity="center"
         android:textAlignment="center"
+        android:textColor="#003D71"
         android:layout_marginTop="12dp"
         android:fontFamily="sans-serif"
         android:layout_marginRight="10dp"
         android:layout_marginLeft="10dp"
-        android:textStyle="italic"
+        android:textStyle="bold"
         android:text="@string/cocurricularintro"/>
 
     <LinearLayout
@@ -46,8 +47,9 @@
             android:layout_height="match_parent"
             android:fontFamily="sans-serif"
             android:textAllCaps="false"
-            android:backgroundTint="#f40e0e"
             android:textSize="12dp"
+            android:backgroundTint="#BE1E2D"
+            android:textColor="#FFF"
             android:id="@+id/lscca"
             android:textStyle="bold"
             android:text="Learn More about Lower School Co-Curricular Activities"/>
@@ -59,7 +61,8 @@
             android:fontFamily="sans-serif"
             android:textAllCaps="false"
             android:textSize="12dp"
-            android:backgroundTint="#00bfff"
+            android:backgroundTint="#BE1E2D"
+            android:textColor="#FFF"
             android:id="@+id/mscca"
             android:textStyle="bold"
             android:text="Learn More about Middle School Co-Curricular Activities"/>
@@ -72,7 +75,8 @@
             android:textSize="12dp"
             android:textStyle="bold"
             android:textAllCaps="false"
-            android:backgroundTint="#2ae909"
+            android:backgroundTint="#BE1E2D"
+            android:textColor="#FFF"
             android:id="@+id/uscca"
             android:text="Learn More about Upper School Co-Curricular Activities"/>
 
@@ -102,7 +106,8 @@
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="0.25"
-        android:backgroundTint="#0db73e"
+        android:backgroundTint="#BE1E2D"
+        android:textColor="#FFF"
         android:textStyle="bold"
         android:text="Access the Co-Curriculars Portal"
         android:textAllCaps="false"
