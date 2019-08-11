@@ -50,7 +50,6 @@
         android:layout_weight="0.1"
         android:textColor="#ffff"
         android:backgroundTint="#BE1E2D"
-        android:textStyle="bold"
         android:text="Login"
         android:textAllCaps="false"
         android:id="@+id/login"/>
