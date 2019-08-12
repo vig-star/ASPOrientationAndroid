@@ -101,6 +101,7 @@
         android:layout_weight="0.15"
         android:textColor="#ffff"
         android:backgroundTint="#BE1E2D"
+        android:textStyle="bold"
         android:text="Learn more about PFA School Activities"
         android:textAllCaps="false"
         android:id="@+id/pfasa"/>
@@ -111,6 +112,7 @@
         android:layout_weight="0.15"
         android:textColor="#ffff"
         android:backgroundTint="#BE1E2D"
+        android:textStyle="bold"
         android:text="Learn more about PFA Community Events"
         android:textAllCaps="false"
         android:id="@+id/pface"/>

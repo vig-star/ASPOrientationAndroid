@@ -70,6 +70,7 @@
             android:textSize="12dp"
             android:id="@+id/lsa"
             android:textColor="#ffff"
+            android:textStyle="bold"
             android:text="Learn More about Lower School Athletics"/>
 
         <Button
@@ -82,6 +83,7 @@
             android:textSize="12dp"
             android:backgroundTint="#BE1E2D"
             android:id="@+id/msa"
+            android:textStyle="bold"
             android:text="Learn More about Middle School Athletics"/>
 
         <Button
@@ -91,6 +93,7 @@
             android:fontFamily="sans-serif"
             android:textSize="12dp"
             android:textColor="#ffff"
+            android:textStyle="bold"
             android:textAllCaps="false"
             android:backgroundTint="#BE1E2D"
             android:id="@+id/usa"
@@ -123,6 +126,7 @@
         android:layout_height="0dp"
         android:layout_weight="0.25"
         android:backgroundTint="#BE1E2D"
+        android:textStyle="bold"
         android:textColor="#ffff"
         android:text="Access the Athletics Portal"
         android:textAllCaps="false"

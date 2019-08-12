@@ -23,6 +23,10 @@ public class LoginActivity extends AppCompatActivity {
         username = (EditText) findViewById(R.id.username);
         password = (EditText) findViewById(R.id.password);
 
+        if ((SharedPrefer.getNameValue(this) != null)) {
+            Intent intent = new Intent(this, MainActivity.class);
+            startActivity(intent);
+        }else {
 
 
             loginButton.setOnClickListener(new View.OnClickListener() {
@@ -49,6 +53,6 @@ public class LoginActivity extends AppCompatActivity {
 
                 }
             });
-
+        }
     }
 }
