@@ -408,7 +408,7 @@
             android:layout_marginStart="30dp"
             android:text="Lower School: Justine du Plessis"
             android:textAllCaps="false"
-            android:textColor="#0c14ac"
+            android:textColor="#003D71"
             android:background="@android:color/transparent"
             android:layout_height="wrap_content" />
 

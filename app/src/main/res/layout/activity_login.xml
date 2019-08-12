@@ -4,16 +4,19 @@
     android:layout_height="match_parent"
     xmlns:tools="http://schemas.android.com/tools"
     android:orientation="vertical"
-    android:paddingTop="200dp"
-    android:paddingBottom="250dp"
     android:background="#ffff"
     tools:context=".LoginActivity"
     android:clickable="true">
 
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"/>
+
     <ImageView
         android:layout_width="wrap_content"
         android:layout_height="0dp"
-        android:layout_weight="0.2"
+        android:layout_weight="0.25"
         android:id="@+id/imageView"
         android:src="@drawable/aspl"
         android:layout_centerHorizontal="true"
@@ -22,7 +25,7 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.05"
+        android:layout_weight="0.1"
         android:id="@+id/username"
         android:hint="Enter Username"
         android:fontFamily="sans-serif"
@@ -34,26 +37,29 @@
     <EditText
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.05"
+        android:layout_weight="0.1"
         android:id="@+id/password"
         android:fontFamily="sans-serif"
         android:hint="Enter Password"
         android:focusable="true"
         android:inputType="textPassword"
-        android:textColor="#003D71"
-
-        />
+        android:textColor="#003D71" />
 
     <Button
         android:layout_width="match_parent"
         android:layout_height="0dp"
-        android:layout_weight="0.1"
+        android:layout_weight="0.15"
         android:textColor="#ffff"
         android:backgroundTint="#BE1E2D"
         android:textStyle="bold"
         android:text="Login"
         android:textAllCaps="false"
         android:id="@+id/login"/>
+
+    <Space
+        android:layout_width="1dp"
+        android:layout_height="0dp"
+        android:layout_weight="0.25"/>
 
 
 </LinearLayout>
