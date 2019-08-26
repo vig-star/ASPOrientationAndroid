@@ -25,6 +25,7 @@ public class ASPOnlineFragment extends Fragment {
     //@BindView(R.id.onlineinfo3) TextView calendars;
     @BindView(R.id.onlineinfo4) TextView directory;
     @BindView(R.id.onlineinfo5) TextView libraries;
+    @BindView(R.id.onlineinfo6) TextView navigator;
 
 
 
@@ -40,6 +41,8 @@ public class ASPOnlineFragment extends Fragment {
         //calendars.setMovementMethod(LinkMovementMethod.getInstance());
         directory.setMovementMethod(LinkMovementMethod.getInstance());
         libraries.setMovementMethod(LinkMovementMethod.getInstance());
+        navigator.setMovementMethod(LinkMovementMethod.getInstance());
+
 
         return fragment;
     }

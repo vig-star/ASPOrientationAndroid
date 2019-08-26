@@ -162,6 +162,44 @@
             android:orientation="vertical">
 
             <TextView
+                android:id="@+id/onlinetitle6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="sans-serif"
+                android:maxLines="2"
+                android:textColor="#003D71"
+                android:textSize="18dp"
+                android:textStyle="bold"
+                android:text="Upper School Navigator" />
+
+            <TextView
+                android:id="@+id/onlineinfo6"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="@dimen/activity_horizontal_margin"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:fontFamily="sans-serif-condensed"
+                android:textColor="#003D71"
+                android:textSize="15dp"
+                android:text="@string/navigator" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_vertical"
+            android:paddingTop="10dp"
+            android:paddingBottom="10dp"
+            android:layout_marginStart="16dp"
+            android:layout_marginLeft="16dp"
+            android:orientation="vertical">
+
+            <TextView
                 android:id="@+id/onlinetitle5"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
