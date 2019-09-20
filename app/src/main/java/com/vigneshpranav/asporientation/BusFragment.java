@@ -27,7 +27,7 @@ public class BusFragment extends Fragment {
         busroutes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1547043527/asp/fd7nm9pferrxm1uusuuk/BusRoutes_2018-19_1.pdf"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1566397947/asp/ysrhuri8bq9imqnppzza/MorningandAfternoon340bus.pdf"));
                 startActivity(browserIntent);
             }
         });
@@ -35,7 +35,7 @@ public class BusFragment extends Fragment {
         latebusroutes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1547043914/asp/vrf3kibqwyc3mtfeuwx6/Latebuses17h15.pdf"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1566397935/asp/soqw0ywgssaazsa2rvlm/5157h30buses201920.pdf"));
                 startActivity(browserIntent);
             }
         });
@@ -43,7 +43,7 @@ public class BusFragment extends Fragment {
         latelatebusroutes.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1547043987/asp/fmh9ix8nnv6rr7ueznze/LateBuses18h30.pdf"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://resources.finalsite.net/images/v1566397873/asp/ahat3dpgkljy7uefnnkk/6_30_18h30buses2019201.pdf"));
                 startActivity(browserIntent);
             }
         });

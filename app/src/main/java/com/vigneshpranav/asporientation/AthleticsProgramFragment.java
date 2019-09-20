@@ -81,7 +81,7 @@ public class AthleticsProgramFragment extends Fragment {
         athleticsportal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.asparis.org/parentportal/athletics"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.asparis.org/parent-portal/activities/"));
                 startActivity(browserIntent);
             }
         });

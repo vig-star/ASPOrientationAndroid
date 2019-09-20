@@ -26,7 +26,7 @@
             android:fontFamily="sans-serif"
             android:textStyle="bold"
             android:textColor="#003D71"
-            android:text="\t\t\t\tASP Athletics "/>
+            android:text="\t\t\t\tASP Athletics and Sports"/>
 
         <ImageButton
             android:layout_width="wrap_content"
@@ -128,7 +128,7 @@
         android:backgroundTint="#BE1E2D"
         android:textStyle="bold"
         android:textColor="#ffff"
-        android:text="Access the Athletics Portal"
+        android:text="Access the Activities Portal"
         android:textAllCaps="false"
         android:id="@+id/ap"/>
 

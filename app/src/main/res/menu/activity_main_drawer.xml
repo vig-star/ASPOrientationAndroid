@@ -36,7 +36,7 @@
                 <item
                     android:id="@+id/athletics"
                     android:icon="@drawable/sports"
-                    android:title="Athletics Program" />
+                    android:title="Athletics and Sports" />
                 <item
                     android:id="@+id/cocurricular"
                     android:icon="@drawable/cca"

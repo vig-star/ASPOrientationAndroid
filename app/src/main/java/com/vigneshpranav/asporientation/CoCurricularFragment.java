@@ -56,7 +56,7 @@ public class CoCurricularFragment extends Fragment {
         ccaportal.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.asparis.org/parentportal/cocurriculars"));
+                Intent browserIntent = new Intent(Intent.ACTION_VIEW, Uri.parse("https://www.asparis.org/parent-portal/activities/clubs"));
                 startActivity(browserIntent);
             }
         });
