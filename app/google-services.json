@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "115684860080",
+    "firebase_url": "https://testnotifications-35d0c.firebaseio.com",
+    "project_id": "testnotifications-35d0c",
+    "storage_bucket": "testnotifications-35d0c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:115684860080:android:04fdb21b1b7f6e0f0bdb75",
+        "android_client_info": {
+          "package_name": "com.vigneshpranav.asporientation"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "115684860080-5vfd73hjteqncav9tjlh9b8ess2aha78.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCU3ZrexFFg_WXcrIlprulksI-2ho-dFX4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "115684860080-5vfd73hjteqncav9tjlh9b8ess2aha78.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
