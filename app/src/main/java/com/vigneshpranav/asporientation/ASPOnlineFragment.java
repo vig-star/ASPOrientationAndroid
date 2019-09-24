@@ -1,25 +1,24 @@
 package com.vigneshpranav.asporientation;
 
 import android.os.Bundle;
-import android.support.annotation.NonNull;
-import android.support.annotation.Nullable;
-import android.support.v4.app.Fragment;
+import androidx.annotation.NonNull;
+import androidx.annotation.Nullable;
+import androidx.fragment.app.Fragment;
 import android.text.method.LinkMovementMethod;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.widget.Button;
 import android.widget.TextView;
 
 import butterknife.BindView;
 import butterknife.ButterKnife;
 
-import static butterknife.ButterKnife.findById;
+//import static butterknife.ButterKnife.findById;
 
 public class ASPOnlineFragment extends Fragment {
 
     public static View fragment;
-    @BindView(R.id.onlineintro) TextView intro;
+    @BindView (R.id.onlineintro) TextView intro;
     @BindView(R.id.onlineinfo1) TextView powerschool;
     @BindView(R.id.onlineinfo2) TextView haiku;
     //@BindView(R.id.onlineinfo3) TextView calendars;
