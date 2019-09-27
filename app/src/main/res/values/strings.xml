@@ -20,6 +20,11 @@
     <string name="gradepMS">Each grade travels for a multi-day program organized by the school and the Outward Bound program. These trips create an amazing first impression and connection for students. The goal is for students to develop a sense of trust, friendship, cooperation, and good spirit. The experience builds a foundation for cooperative learning that will carry on throughout the year.</string>
     <string name="gradepUS">Students will experience a range of programs at the start of the year to help them discover the school, learn more about its expectations, meet classmates, and form new friendships.</string>
 
+    <string name="msg_subscribed">Subscribed to weather topic</string>
+    <string name="msg_token_fmt" translatable="false">InstanceID Token: %s</string>
+    <string name="msg_subscribe_failed">Failed to subscribe to weather topic</string>
+
+
     <string name="onlineintro"><b>The <a href="https://www.asparis.org">ASP Website</a> has a wealth of resources about our programs and community. The <a href="https://www.asparis.org/parentportal/home">Parent Portal</a> is your point of entry.</b></string>
     <string name="powerschool">PowerSchool is ASP\'s student data base. Student schedules, attendance data, grades, and report cards are available here. Click <b><a href="https://powerschool.asparis.fr/public/home.html">here</a></b> to access the PowerSchool Portal.</string>
     <string name="haiku">Haiku/PowerSchool Learning is the school’s online learning portal. Middle and Upper School teachers use Haiku to extend the classroom environment. For the ASP student, Haiku provides access to a variety of resources and information related to classes, clubs and other activities. Click <b><a href="https://asparis.learning.powerschool.com/do/account/login">here</a></b> to access the Haiku Portal.</string>
