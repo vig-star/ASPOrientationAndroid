@@ -18,6 +18,7 @@ public class LoginActivity extends AppCompatActivity {
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_login);
+        Toast.makeText(LoginActivity.this, "Username and Password on your emails", Toast.LENGTH_LONG).show();
 
         loginButton = (Button) findViewById(R.id.login);
         username = (EditText) findViewById(R.id.username);
@@ -34,7 +35,6 @@ public class LoginActivity extends AppCompatActivity {
                 public void onClick(View view) {
                     String namevalue = username.getText().toString();
                     String passvalue = password.getText().toString();
-
                     if (namevalue.equalsIgnoreCase("")) {
                         Toast.makeText(LoginActivity.this, "Enter Username", Toast.LENGTH_SHORT).show();
                     } else if (passvalue.equalsIgnoreCase("")) {
