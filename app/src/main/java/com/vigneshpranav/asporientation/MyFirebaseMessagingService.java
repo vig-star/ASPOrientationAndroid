@@ -1,5 +1,7 @@
 package com.vigneshpranav.asporientation;
 
+import android.app.Notification;
+import android.os.Build;
 import android.util.Log;
 
 import com.google.firebase.messaging.FirebaseMessagingService;
@@ -50,13 +52,28 @@ public class MyFirebaseMessagingService extends FirebaseMessagingService {
     }
 
     public void showNotification(String title, String message) {
-        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "MyNotification")
-                .setContentTitle(title)
-                .setSmallIcon(R.drawable.ic_launcher_background)
-                .setAutoCancel(true)
-                .setContentText(message);
+
+        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "MyNotification");
+
+        if (android.os.Build.VERSION.SDK_INT >= Build.VERSION_CODES.LOLLIPOP) {
+            builder.setSmallIcon(R.drawable.notifi_icon);
+            builder.setColor(getResources().getColor(R.color.ic_launcher_background));
+        } else {
+            builder.setSmallIcon(R.drawable.notification_icon);
+        }
+        builder.setContentTitle(title);
+        builder.setContentText(message);
         NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
         notificationManagerCompat.notify(909,builder.build());
+
+
+//        NotificationCompat.Builder builder = new NotificationCompat.Builder(this, "MyNotification")
+//                .setContentTitle(title)
+//                .setSmallIcon(R.drawable.notification_icon)
+//                .setAutoCancel(true)
+//                .setContentText(message);
+//        NotificationManagerCompat notificationManagerCompat = NotificationManagerCompat.from(this);
+//        notificationManagerCompat.notify(909,builder.build());
 
 
 
